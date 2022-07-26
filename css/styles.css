@@ -1,0 +1,615 @@
+.superior {
+    display: grid;
+    height: 30vw;
+    width: 100vw;
+    background-image: url(../assets/portada.webp);
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: repeat(6, 1fr);
+   
+}
+.superior2 {
+    display: grid;
+    height: 5vw;
+    width: 100vw;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.ajuste_logo {
+    display: flex;
+    
+}
+  
+.logo {
+    width: 15vw;
+    height: 10vw;
+    padding: 1vw 1vw;
+}
+
+.referencias {
+display: flex;
+justify-content: center;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.fuente {
+    color: grey;
+    font-size: 3vw;
+    position: relative; top: calc(20%)
+    /*font-style: normal;
+    font-weight: bold;
+    font-size: 5vw; */
+}
+
+.principal {
+    display: grid;
+    height: 55vw;
+    width: 100vw;
+    background-size: cover;
+    background-image: url(../assets/portal3.jpeg);
+    grid-template-columns: 9vw 25vw 3vw 25vw 3vw 25vw 9vw;
+    grid-template-rows: 5vw 30vw 20vw;
+}
+
+.principal1 {
+    display: grid;
+    height: 55vw;
+    width: 100vw;
+    background-size: cover;
+    background-image: url(../assets/portal3.jpeg);
+    grid-template-columns: auto 400px auto;
+    grid-template-rows: 15vw 220px 15vw;  
+}
+
+.principal2 {
+    display: grid;
+    height: 75vw;
+    width: 100vw;
+    background-size: cover;
+    background-image: url(../assets/portal3.jpeg);
+    grid-template-columns: 20vw 25vw 10vw 25vw 20vw;
+    grid-template-rows: 5vw 30vw 5vw 30vw 5vw;  
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center; 
+    align-items: center;
+    align-content: center;
+    grid-column-start: 2; 
+    grid-column-end: 2; 
+    grid-row-start: 2; 
+    grid-row-end: 2;
+    
+
+}
+/*.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(230, 235, 241);
+    align-items: center;
+    align-content: center;
+    border: 2px;
+}*/
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 235, 241);
+    text-align: center; 
+    align-items: center;
+    align-content: center;
+    grid-column-start: 2; 
+    grid-column-end: 2; 
+    grid-row-start: 2; 
+    grid-row-end: 2;
+    
+}
+
+.item1 > img {
+
+  position: relative; top: calc(10%);
+}
+
+.item1 > h2 {
+
+    position: relative; 
+    top: calc(10%);
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 235, 241);
+    text-align: center;
+    align-items: center;
+    grid-column-start: 4; 
+    grid-column-end: 4; 
+    grid-row-start: 2; 
+    grid-row-end: 2;
+    
+}
+
+.item2 > img {
+
+    position: relative; top: calc(10%);
+  }
+  
+  .item2 > h2 {
+  
+      position: relative; 
+      top: calc(10%);
+  }
+
+.item3 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 235, 241);
+    text-align: center;
+    align-items: center;
+    grid-column-start: 7; 
+    grid-column-end: 6; 
+    grid-row-start: 2; 
+    grid-row-end: 2;
+    
+}
+.item3 > img {
+
+    position: relative; top: calc(10%);
+}
+  
+.item3 > h2 {
+  
+    position: relative; top: calc(10%);
+}
+
+.item4 {
+
+    grid-column-start: 4; 
+    grid-column-end: 4; 
+    grid-row-start: 3; 
+    grid-row-end: 3;
+}
+
+.pro1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 235, 241);
+    text-align: center; 
+    align-items: center;
+    align-content: center;
+    grid-column-start: 2; 
+    grid-column-end: 2; 
+    grid-row-start: 2; 
+    grid-row-end: 2;
+    
+}
+
+.pro1 > img {
+
+    position: relative; top: calc(10%);
+  }
+  
+.pro1 > h2 {
+  
+      position: relative; 
+      top: calc(10%);
+  }
+  
+.pro2 {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(230, 235, 241);
+      text-align: center;
+      align-items: center;
+      grid-column-start: 4; 
+      grid-column-end: 4; 
+      grid-row-start: 2; 
+      grid-row-end: 2;
+      
+  }
+  
+.pro2 > img {
+  
+      position: relative; top: calc(10%);
+    }
+    
+.pro2 > h2 {
+    
+        position: relative; 
+        top: calc(10%);
+    }
+  
+.pro3 {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(230, 235, 241);
+      text-align: center;
+      align-items: center;
+      grid-column-start: 2; 
+      grid-column-end: 2; 
+      grid-row-start: 4; 
+      grid-row-end: 4;
+      
+  }
+.pro3 > img {
+  
+      position: relative; top: calc(10%);
+  }
+    
+.pro3 > h2 {
+    
+      position: relative; top: calc(10%);
+  }
+  
+.pro4 {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(230, 235, 241);
+      text-align: center;
+      align-items: center;
+      grid-column-start: 4; 
+      grid-column-end: 4; 
+      grid-row-start: 4; 
+      grid-row-end: 4;
+  }
+  
+.pro4 > img {
+  
+    position: relative; top: calc(10%);
+}
+  
+.pro4 > h2 {
+  
+    position: relative; top: calc(10%);
+}
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 3vw;
+}
+
+.proyectos > img {
+
+    position: relative; top: calc(40%);
+}
+
+.fuente {
+    font-size: 3vw;
+}
+
+.fuente1 {
+    font-size: 2vw;
+}
+
+.fuente2 {
+    font-size: 3vw;
+
+}
+
+.fuente3 {
+    font-size: 1vw;
+}
+
+.fuente4 {
+    font-size: 2vw;
+    color: rgb(67, 0, 252);
+}
+
+.ajuste {
+height: 20vw;
+width: 20vw;
+}
+
+.ajuste1 {
+    display: flex;
+    height: 9vw;
+    width: 9vw;
+}
+
+.pie {
+   display: flex;
+   flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 10vw;
+    background-color:  rgb(230, 235, 241);
+    color: white;
+}
+.pie > h2 {
+  
+    position: relative; top: calc(20%);
+}
+
+@media screen and (max-width: 500px) {
+    .superior {
+        display: grid;
+        height: 30vw;
+        width: 100vw;
+        background-image: url(../assets/portada.webp);
+        background-size: cover;
+        background-position: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .superior2 {
+        /*grid-template-rows: 80px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 80px 80px;*/
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        height: 15vw;
+        width: 100vw;
+       
+     }
+     .principal {
+        display: grid;
+        height: 120vw;
+        width: 100vw;
+        background-size: cover;
+        background-image: url(../assets/portal3.jpeg);
+        grid-template-columns: 30vw 40vw 30vw;
+        grid-template-rows: 5vw 25vw 5vw 25vw 5vw 25vw 5vw 25vw;
+    }
+    .item1 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(230, 235, 241);
+        text-align: center; 
+        align-items: center;
+        align-content: center;
+        grid-column-start: 2; 
+        grid-column-end: 2; 
+        grid-row-start: 2; 
+        grid-row-end: 2;
+        
+    }
+    
+    .item1 > img {
+    
+      position: relative; top: calc(5%);
+    }
+    
+    .item1 > h2 {
+    
+        position: relative; 
+        top: calc(2%);
+    }
+    
+    .item2 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(230, 235, 241);
+        text-align: center;
+        align-items: center;
+        grid-column-start: 2; 
+        grid-column-end: 2; 
+        grid-row-start: 4; 
+        grid-row-end: 4;
+        
+    }
+    
+    .item2 > img {
+    
+        position: relative; top: calc(5%);
+      }
+      
+      .item2 > h2 {
+      
+          position: relative; 
+          top: calc(2%);
+      }
+    
+    .item3 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(230, 235, 241);
+        text-align: center;
+        align-items: center;
+        grid-column-start: 2; 
+        grid-column-end: 2; 
+        grid-row-start: 6; 
+        grid-row-end: 6;
+        
+    }
+    .item3 > img {
+    
+        position: relative; top: calc(5%);
+    }
+      
+    .item3 > h2 {
+      
+        position: relative; top: calc(2%);
+    }
+    
+    .item4 {
+    
+        grid-column-start: 2; 
+        grid-column-end: 2; 
+        grid-row-start: 8; 
+        grid-row-end: 8;
+    }
+    
+    .proyectos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 3vw;
+    }
+    
+    .proyectos > img {
+    
+        position: relative; top: calc(40%);
+    }
+    .principal1 {
+        display: grid;
+        height: 55vw;
+        width: 100vw;
+        background-size: cover;
+        background-image: url(../assets/portal3.jpeg);
+        grid-template-columns: 5vw 90vw 5vw;
+        grid-template-rows: 5vw 45vw 5vw;  
+    }
+    
+    .form1 {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        text-align: center; 
+        align-items: center;
+        align-content: center;
+        grid-column-start: 2; 
+        grid-column-end: 2; 
+        grid-row-start: 2; 
+        grid-row-end: 2;
+
+    }
+    .principal2 {
+        display: grid;
+        height: 150vw;
+        width: 100vw;
+        background-size: cover;
+        background-image: url(../assets/portal3.jpeg);
+        grid-template-columns: 25vw 50vw 25vw;
+        grid-template-rows: 4vw 30vw 4vw 30vw 4vw 30vw 4vw 30vw 4vw;  
+    }
+    .pro1 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(230, 235, 241);
+        text-align: center; 
+        align-items: center;
+        align-content: center;
+        grid-column-start: 2; 
+        grid-column-end: 2; 
+        grid-row-start: 2; 
+        grid-row-end: 2;
+        
+    }
+    
+    .pro1 > img {
+    
+        position: relative; top: calc(10%);
+      }
+      
+    .pro1 > h2 {
+      
+          position: relative; 
+          top: calc(10%);
+      }
+      
+    .pro2 {
+          display: flex;
+          flex-direction: column;
+          background-color: rgb(230, 235, 241);
+          text-align: center;
+          align-items: center;
+          grid-column-start: 2; 
+          grid-column-end: 2; 
+          grid-row-start: 4; 
+          grid-row-end: 4;
+          
+      }
+      
+    .pro2 > img {
+      
+          position: relative; top: calc(10%);
+        }
+        
+    .pro2 > h2 {
+        
+            position: relative; 
+            top: calc(10%);
+        }
+      
+    .pro3 {
+          display: flex;
+          flex-direction: column;
+          background-color: rgb(230, 235, 241);
+          text-align: center;
+          align-items: center;
+          grid-column-start: 2; 
+          grid-column-end: 2; 
+          grid-row-start: 6; 
+          grid-row-end: 6;
+          
+      }
+    .pro3 > img {
+      
+          position: relative; top: calc(10%);
+      }
+        
+    .pro3 > h2 {
+        
+          position: relative; top: calc(10%);
+      }
+      
+    .pro4 {
+          display: flex;
+          flex-direction: column;
+          background-color: rgb(230, 235, 241);
+          text-align: center;
+          align-items: center;
+          grid-column-start: 2; 
+          grid-column-end: 2; 
+          grid-row-start: 8; 
+          grid-row-end: 8;
+      }
+
+}
+
+form {
+  /* Centrar el formulario en la página */
+  margin: 0 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px; 
+}
+
+button {
+  margin-left: .5em;
+}
